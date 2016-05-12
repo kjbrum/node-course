@@ -1,16 +1,15 @@
 {
-  "name": "todo-api",
+  "name": "brumm-web-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "Just messing around with Node.js stuff.",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon server.js"
+    "dev": "open http://localhost:3000 && nodemon server.js"
   },
   "author": "Kyle Brumm",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.15.0",
     "express": "^4.13.4",
-    "underscore": "^1.8.3"
+    "nodemon": "^1.9.1"
   }
 }
